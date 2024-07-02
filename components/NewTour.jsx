@@ -2,7 +2,6 @@ import React from "react";
 import { generateTourResponse } from "@/utils/actions";
 import toast from "react-hot-toast";
 import { useMutation } from "@tanstack/react-query";
-import { useAuth } from "@clerk/nextjs";
 
 const NewTour = () => {
   const {
